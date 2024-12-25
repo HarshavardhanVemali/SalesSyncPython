@@ -43,15 +43,15 @@ INSTALLED_APPS = [
     'rest_framework_simplejwt',
 ]
 CORS_ALLOWED_ORIGINS = [
+    "https://salessyncvue.onrender.com",
     "http://localhost:8080",
     "http://192.168.29.230:8080",
-    "https://1d17-2405-201-c026-70ef-69e4-42d1-4975-4792.ngrok-free.app",
     "https://salessync.netlify.app",
 ]
 CSRF_TRUSTED_ORIGINS = [
+    "https://salessyncvue.onrender.com",
     "http://localhost:8080",
     "http://192.168.29.230:8080",
-    "https://1d17-2405-201-c026-70ef-69e4-42d1-4975-4792.ngrok-free.app",
     "https://salessync.netlify.app",
 ]
 CORS_ALLOW_CREDENTIALS = True
