@@ -131,7 +131,7 @@ DATABASES = {
         'NAME': BASE_DIR / 'db.sqlite3',
     }
 }
-DATABASES["default"]=dj_database_url.parse("postgresql://foodhub_hc97_user:LPwbB2H7vUKyXzDCuh6nkjgvwUM0iLoh@dpg-ctg2sm5umphs73eftbi0-a.oregon-postgres.render.com/foodhub_hc97")
+DATABASES["default"]=dj_database_url.parse("postgresql://salessync_user:k5IpX3Oo2Ur65AwYm7wJdk9iOljlMqD6@dpg-ctlskctds78s73c8etvg-a.oregon-postgres.render.com/salessync")
 
 # Password validation
 # https://docs.djangoproject.com/en/5.1/ref/settings/#auth-password-validators
